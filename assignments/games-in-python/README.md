@@ -1,19 +1,48 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python (Hangman)
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a text-based Hangman game using core Python concepts such as loops, conditionals, strings, lists, and user input.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Set Up the Game State
 
-## ✅ Must Have's
+#### Description
+Prepare the initial variables needed to run the game using the provided starter code.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly select one secret word from the provided `words` list.
+- Create a structure to track guessed letters.
+- Track the number of incorrect guesses.
+- Define a maximum number of incorrect guesses allowed.
+
+### 🛠️ Build the Main Game Loop
+
+#### Description
+Implement the interactive loop where the player guesses letters and receives feedback after each turn.
+
+#### Requirements
+Completed program should:
+
+- Display the current word progress using underscores for unknown letters (for example: `_ _ t h _ n`).
+- Prompt the player to enter one letter per turn.
+- Update game state correctly for correct and incorrect guesses.
+- Show the remaining number of incorrect guesses after each wrong attempt.
+- End the loop when the word is fully guessed or the player runs out of attempts.
+
+### 🛠️ Finish and Report Results
+
+#### Description
+Add clear end-of-game messages and verify that all game outcomes are handled.
+
+#### Requirements
+Completed program should:
+
+- Display a congratulatory message when the player guesses the full word.
+- Display a game-over message with the secret word when attempts are exhausted.
+- Handle repeated guesses gracefully (without crashing).
+- Use clear and student-friendly output messages throughout the game.
