@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "functions-and-file-io",
+      "title": "Functions and File I/O",
+      "description": "Practice modular Python with reusable functions, CSV file input, and report generation from student grade data.",
+      "path": "assignments/functions-and-file-io",
+      "dueDate": "2026-05-21",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Sample Grades",
+          "file": "grades.csv",
+          "type": "csv"
+        }
+      ]
     }
   ]
 }
